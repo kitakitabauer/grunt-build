@@ -3,9 +3,13 @@ module.exports = function(grunt) {
     clean: ['build'],
     watch: {
       css: {
-        files: ['css/index.css', 'js/index.js'],
-        tasks: ['cssmin', 'uglify']
+        files: ['css/index.css'],
+        tasks: ['cssmin']
       },
+      js: {
+        files: ['js/index.js'],
+        tasks: ['uglify']
+      }
     },
     cssmin: {
       main: {
