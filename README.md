@@ -5,7 +5,7 @@ grunt-build
 
 ```bash
 npm install -g grunt-cli
-npm i -D grunt grunt-contrib-watch grunt-contrib-cssmin grunt-contrib-uglify
+npm i -D grunt grunt-contrib-clean grunt-contrib-watch grunt-contrib-cssmin grunt-contrib-uglify
 ```
 
 ##run
