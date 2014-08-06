@@ -11,7 +11,7 @@ npm i -D grunt grunt-contrib-clean grunt-contrib-watch grunt-contrib-cssmin grun
 ##run
 
 ```bash
-grunt watch
+grunt clean watch
 ```
 
 and edit watching files.
