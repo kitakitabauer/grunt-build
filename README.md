@@ -16,6 +16,9 @@ grunt watch
 
 and edit watching files.
 
+* css/index.css
+* js/index.js
+
 ##output
 
 * build/index.min.css
